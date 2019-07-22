@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 
-data = [1, 3, 5, 6, 7, 9]
+data = [1, 5, 3, 6, 7, 9, 3]
 df = pd.DataFrame(data, columns=['data'])
 
 # 1 数据的描述性统计
@@ -145,6 +145,7 @@ from temp.descriptive_statistics_of_data
 
 # python自定义函数
 def get_quantile(data, p):
+    data.sort()
     pos = (len(data) - 1) * p
     pos_integer = int(np.floor(pos))
     pos_decimal = pos - pos_integer
