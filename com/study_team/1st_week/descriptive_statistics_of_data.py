@@ -145,11 +145,14 @@ from temp.descriptive_statistics_of_data
 
 # python自定义函数
 def get_quantile(data, p):
-    data.sort()
-    pos = (len(data) - 1) * p
-    pos_integer = int(np.floor(pos))
-    pos_decimal = pos - pos_integer
-    quantile = data[pos_integer] * (1 - pos_decimal) + data[pos_integer + 1] * pos_decimal
+    if p == 1:
+        quantile = max(data)
+    else:
+        data.sort()
+        pos = (len(data) - 1) * p
+        pos_integer = int(np.floor(pos))
+        pos_decimal = pos - pos_integer
+        quantile = data[pos_integer] * (1 - pos_decimal) + data[pos_integer + 1] * pos_decimal
     return quantile
 
 
