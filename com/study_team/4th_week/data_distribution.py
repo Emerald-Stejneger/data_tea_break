@@ -158,7 +158,7 @@ plt.figure()
 plt.hist(data, bins=9, normed=True)
 plt.xlim(0, 10)
 plt.xlabel('Number of accident')
-plt.title('Simulating Poisson Random Variables:  \n$E(X)=%.2f, \quad D(X)=%.2f$' % (np.mean(data), np.std(data, ddof=1)))
+plt.title('Simulating Poisson Random Variables:  \n$E(X)=%.2f, \quad SD(X)=%.2f$' % (np.mean(data), np.std(data, ddof=1)))
 plt.show()
 
 
@@ -232,7 +232,7 @@ plt.show()
 data = stats.expon.rvs(scale=2, size=1000)
 plt.hist(data, bins=20, normed=True)
 plt.xlim(0, 15)
-plt.title('Simulating Exponential Random Variables:  \n$E(X)=%.2f,\quad D(X)=%.2f$' % (np.mean(data), np.std(data, ddof=1)))
+plt.title('Simulating Exponential Random Variables:  \n$E(X)=%.2f,\quad SD(X)=%.2f$' % (np.mean(data), np.std(data, ddof=1)))
 plt.show()
 
 
@@ -326,7 +326,7 @@ plt.show()
 data = stats.beta.rvs(a, b, size=1000)
 plt.hist(data, bins=20, normed=True)
 plt.xlim(0, 1)
-plt.title('Simulating Beta Random Variables:  \n$E(X)=%.2f,\quad D(X)=%.2f$' % (np.mean(data), np.std(data, ddof=1)))
+plt.title('Simulating Beta Random Variables:  \n$E(X)=%.2f,\quad SD(X)=%.2f$' % (np.mean(data), np.std(data, ddof=1)))
 plt.show()
 
 
