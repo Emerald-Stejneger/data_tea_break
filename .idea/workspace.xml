@@ -15,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/com/study_team/1st_week/descriptive_statistics_of_data.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="152" column="26" lean-forward="true" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
+              <caret line="152" column="26" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
               <folding>
                 <element signature="e#26#44#0" expanded="true" />
               </folding>
@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_distribution.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="data_distribution.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/study_team/4th_week/data_distribution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="249" column="40" lean-forward="true" selection-start-line="249" selection-start-column="40" selection-end-line="249" selection-end-column="40" />
+            <state relative-caret-position="-840">
+              <caret line="232" column="22" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
               <folding>
                 <element signature="e#26#44#0" expanded="true" />
               </folding>
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataset_analysis.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dataset_analysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/study_team/4th_week/dataset_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+            <state relative-caret-position="212">
+              <caret line="144" selection-start-line="144" selection-end-line="152" />
               <folding>
                 <element signature="e#26#45#0" expanded="true" />
               </folding>
@@ -82,9 +82,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="22" />
+    <option name="y" value="58" />
     <option name="width" value="1554" />
     <option name="height" value="930" />
   </component>
@@ -130,6 +130,13 @@
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Continuum/anaconda3" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuxing.zeng\PycharmProjects\data_tea_break\com\study_team\4th_week\dataset_analysis_out" />
+      <recent name="C:\Users\yuxing.zeng\PycharmProjects\data_tea_break\com\study_team\4th_week\data_distribution_out" />
+      <recent name="C:\Users\yuxing.zeng\PycharmProjects\data_tea_break\com\study_team\4th_week\out" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -142,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.dataset_analysis">
     <configuration name="data_distribution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_tea_break" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,8 +168,31 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="dataset_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_tea_break" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/study_team/4th_week" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/study_team/4th_week/dataset_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.data_distribution" />
+      <item itemvalue="Python.dataset_analysis" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dataset_analysis" />
         <item itemvalue="Python.data_distribution" />
       </list>
     </recent_temporary>
@@ -181,15 +211,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="18" y="47" width="1243" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3869097" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.38639367" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3294893" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3266762" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28336078" />
+      <window_info anchor="bottom" id="Python Console" order="7" visible="true" weight="0.37726524" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28245363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294893" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -228,7 +258,7 @@
     <entry file="file://$PROJECT_DIR$/com/study_team/1st_week/descriptive_statistics_of_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="152" column="26" lean-forward="true" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
+          <caret line="152" column="26" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
           <folding>
             <element signature="e#26#44#0" expanded="true" />
           </folding>
@@ -268,22 +298,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/study_team/4th_week/data_distribution.py">
+    <entry file="file://$PROJECT_DIR$/com/study_team/4th_week/data_distribution_out/distribution_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/study_team/4th_week/data_distribution_out/distribution_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/study_team/4th_week/dataset_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="249" column="40" lean-forward="true" selection-start-line="249" selection-start-column="40" selection-end-line="249" selection-end-column="40" />
+        <state relative-caret-position="212">
+          <caret line="144" selection-start-line="144" selection-end-line="152" />
           <folding>
-            <element signature="e#26#44#0" expanded="true" />
+            <element signature="e#26#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/study_team/4th_week/dataset_analysis.py">
+    <entry file="file://$PROJECT_DIR$/com/study_team/4th_week/data_distribution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+        <state relative-caret-position="-840">
+          <caret line="232" column="22" selection-start-line="232" selection-start-column="22" selection-end-line="232" selection-end-column="22" />
           <folding>
-            <element signature="e#26#45#0" expanded="true" />
+            <element signature="e#26#44#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -69,12 +69,14 @@ plt.xlim(96, 101)
 plt.legend()
 plt.show()
 
+
 # 3. At what temperature should we consider someone's temperature to be "abnormal"?
 interval = stats.t.interval(0.95, n - 1, mean, std)
 print("置信区间为： (%.4f, %.4f)" % interval)
 '''
 interval = (96.7986, 99.6999) 所以体温小于 96.7986 或者 大于 99.6999 是异常的
 '''
+
 
 # 4. Is there a significant difference between males and females in normal temperature?
 x1 = data[data['gender'] == 1]['temperature'].copy().values
@@ -100,6 +102,7 @@ plt.title('Temperature Distribution: \n$E(X_1)=%.2f, \quad SD(X_1)=%.2f$, $E(X_2
 plt.xlim(96, 101)
 plt.legend()
 plt.show()
+
 
 # 5. Is there a relationship between body temperature and heart rate?
 y = data['heart_rate'].copy().values
@@ -141,13 +144,13 @@ SSR(regression sum of squares)为回归平方和，SSE(error sum of squares) 为
 计算得到： R² = 0.0643， 仍然说明体温与心率相关性并不高。
 '''
 
+
 # 6. Were the original temperatures taken on a Centigrade or Fahrenheit scale?
 data['temperature_centigrade'] = data['temperature'].apply(lambda x: (x - 32) * 5/9)
 x = data['temperature_centigrade'].copy().values
-plt.hist(x, bins=10, normed=True, label='sample distribution')
-plt.xlabel('temperature $(F)$')
+plt.hist(x, bins=10, normed=True)
+plt.xlabel('temperature $(^{\circ}$C$)$')
 plt.ylabel('sample size')
 plt.title('Temperature Distribution: $E(X)=%.2f, \quad SD(X)=%.2f$' % (np.mean(x), np.std(x, ddof=1)))
 plt.xlim(35, 40)
-plt.legend()
 plt.show()
